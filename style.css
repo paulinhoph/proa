@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header, section, footer{
+	position: relative;
+}
+nav{
+	position: absolute;
+	top:-1px;
+	right: 10%;
+}
+nav ul li {
+	font-family: 'BalboaPlus',sans-serif;
+	font-size: 1.88em;
+	color: rgb(0, 0, 0);
+	font-style: normal;
+	text-decoration: underline;
+	text-align: center;
+	line-height: 1.61em;
+	letter-spacing: 0em;	
+	display: inline;
+	margin-top: 8%;
+	margin-right: 5%;
+}
+nav ul{ 
+	/*width: 34%;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;	
+	position: absolute;
+	right: 4%;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.home{
+	/*margin-top: 5%;*/
+	width: 100%;
+}
+.logo{
+	/*right: 600px;*/
+	/*position: absolute;*/
+	width: 9%;
+	margin: 0 auto;
+}
+.mp{
+	font-family: 'BalboaPlus',sans-serif;
+    font-size: 2.92em;
+	color: rgb(255, 255, 255);
+	/*color: blue;*/
+	font-style: normal;
+	text-align: left;
+	/*line-height: 2.51em;*/
+	letter-spacing: 0em;
+	position: absolute;
+	top:16%;
+	right: 6%;
+}
+.redor{
+	width: 47%
+}
+.pro{
+	position:relative;
+	bottom: -200px;
+	right: 
+}
