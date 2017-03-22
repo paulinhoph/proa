@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
 * {
 	margin: 0;
 	padding: 0;
@@ -6,12 +7,14 @@ header, section, footer{
 	position: relative;
 }
 nav{
-	position: absolute;
-	top:-1px;
+	position: relative;
+	top: -115px;
+	left: -5%;
 	right: 10%;
+	margin: 10px;
 }
 nav ul li {
-	font-family: 'BalboaPlus',sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 1.88em;
 	color: rgb(0, 0, 0);
 	font-style: normal;
@@ -20,8 +23,10 @@ nav ul li {
 	line-height: 1.61em;
 	letter-spacing: 0em;	
 	display: inline;
-	margin-top: 8%;
-	margin-right: 5%;
+	margin-top: 6%;
+	margin-right: 3%;
+	margin-left: 4%;
+
 }
 nav ul{ 
 	/*width: 34%;*/
@@ -39,6 +44,8 @@ nav ul{
 .home{
 	/*margin-top: 5%;*/
 	width: 100%;
+	top: 30%;
+
 }
 .logo{
 	/*right: 600px;*/
@@ -47,7 +54,7 @@ nav ul{
 	margin: 0 auto;
 }
 .mp{
-	font-family: 'BalboaPlus',sans-serif;
+	font-family: 'Oswald', sans-serif;
     font-size: 2.92em;
 	color: rgb(255, 255, 255);
 	/*color: blue;*/
@@ -56,14 +63,129 @@ nav ul{
 	/*line-height: 2.51em;*/
 	letter-spacing: 0em;
 	position: absolute;
-	top:16%;
-	right: 6%;
+	top: 18%;
+	left: 60%;
 }
 .redor{
-	width: 47%
+	width: 50%;
+	position: relative;
+	left: 2%;
+	top: -305px;
+	padding-top: 25%;
+
+
 }
 .pro{
-	position:relative;
-	bottom: -200px;
-	right: 
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.0em;
+	color: rgb(0, 0, 0);
+	font-style: all ;
+	text-align: center;
+	/*line-height: 2.23em;*/
+    letter-spacing: 0em;
+	position: relative;
+	width: 17%;
+	left: 18%;
+	display: flex;
+    top: 250px;
+    height: 20px;
+
 }
+.texto{
+	font-family: 'Oswald', sans-serif;
+    font-size: 0.95em;
+	color: rgb(0, 0, 0);
+	font-style: normal;
+	text-align: left;
+	/*line-height: 0.89em;*/
+	letter-spacing: 0em;
+	width: 25%;
+	position: relative;	
+	left: 13%;
+	top: -305px;
+}
+.conteiner{
+	background-color:rgb(0, 174, 239);
+	display: flex;
+	flex-direction: column;
+	position: absolute; 
+	width: 50%;
+	left: 50%;
+	align-items: flex-end;
+	padding-top: 90%;
+
+	
+}
+.conteiner2{
+	background-color:rgb(251, 176, 59);
+	display: flex;
+	flex-direction: column;
+	position: absolute; 
+	width: 50%;
+	left: 50%;
+	align-items: flex-end;
+	padding-top: 65%;
+}
+.sobre{
+	position: relative;
+	left: 35%;
+	top: -52px;
+	width: 30%;
+}
+.texto-sobre{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.31 em;
+	color: rgb(0, 0, 0);
+	font-style: normal;
+	text-align: left;
+	line-height: 1.38em;
+	letter-spacing: 0em;
+	width: 50%;
+	position: relative;	
+	left: 29%;
+	top: -70px;
+}
+.borda{
+	width: 40%;
+	position: relative;
+	left: 30%;
+	background:rgb(0, 102, 179);
+}
+.rodape{	
+	background:rgb(0, 102, 179);
+}
+.h2{
+	color: rgb(251, 176, 59);
+	position: absolute;
+	right: 1%;
+	top: 390px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4em;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.35em;
+	letter-spacing: 0em;
+	
+}
+.pp{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.25em;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.25em;
+	letter-spacing: 0em;
+	color: rgb(255, 255, 255);
+	position: absolute;
+	left: 7%;
+	top: 380px;
+
+
+}
+.contato-cris{
+	color: rgb(255, 255, 255);
+	position: absolute;
+	left: 41%;
+	width: 30%;
+	top: 360px;
+}
+
