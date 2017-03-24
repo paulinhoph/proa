@@ -29,18 +29,18 @@ header, section, footer{
 }
 
 .menu ul li {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'BalboaPlus-Fill',sans-serif;
 	font-size: 1.88em;
 	color: rgb(0, 0, 0);
-	font-style: normal;
+	font-style: all "caps";
 	text-decoration: underline;
 	text-align: center;
 	line-height: 1.61em;
 	letter-spacing: 0em;	
 	display: inline;
-	margin-top: 6%;
-	margin-right: 3%;
-	margin-left: 4%;
+	/*margin-top: 6%;*/
+	/*margin-right: 3%;*/
+	/*margin-left: 4%;*/
 
 }
 
