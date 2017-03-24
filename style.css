@@ -3,17 +3,32 @@
 	margin: 0;
 	padding: 0;
 }
+
 header, section, footer{
 	position: relative;
 }
-nav{
-	position: relative;
-	top: -115px;
-	left: -5%;
-	right: 10%;
-	margin: 10px;
+
+.menu{
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	z-index: 1;
+	background: white;
+
 }
-nav ul li {
+
+.menu ul{ 
+	/*display: flex;*/
+	position: absolute;
+	right: 6%;
+	min-width: 34%;
+
+}
+
+.menu ul li {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.88em;
 	color: rgb(0, 0, 0);
@@ -28,19 +43,7 @@ nav ul li {
 	margin-left: 4%;
 
 }
-nav ul{ 
-	/*width: 34%;*/
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;	
-	position: absolute;
-	right: 4%;
-}
-.menu{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-}
+
 .home{
 	/*margin-top: 5%;*/
 	width: 100%;
@@ -126,7 +129,7 @@ nav ul{
 	align-items: flex-end;
 	padding-top: 65%;
 }
-.sobre{
+.sb{
 	position: relative;
 	left: 35%;
 	top: -52px;
