@@ -30,7 +30,7 @@ header, section, footer{
 }
 
 .menu ul li {
-	font-size: 1.88em;
+	font-size: 1.6em;
 	color: rgb(0, 0, 0);
 	text-transform: uppercase;
 	text-decoration: underline;
@@ -51,7 +51,7 @@ header, section, footer{
 }
 
 .mp{
-    font-size: 2.92em;
+  font-size: 2.92em;
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;
 	font-style: normal;
@@ -80,7 +80,7 @@ section .sb {
 }
 
 .texto-sobre {
-	font-size: 1.31 em;
+	font-size: 1.31em;
 	color: rgb(0, 0, 0);
 	text-transform: uppercase;
 	font-style: normal;
@@ -100,26 +100,20 @@ section .sb {
 	background:rgb(0, 102, 179);
 }
 
-.rodape{	
-	background:rgb(0, 102, 179);
-}
 
 .h2{
 	color: rgb(251, 176, 59);
 	position: absolute;
 	right: 1%;
 	top: 390px;
-	font-family: 'Oswald', sans-serif;
 	font-size: 1.4em;
 	font-style: normal;
 	text-align: left;
 	line-height: 1.35em;
 	letter-spacing: 0em;
-	
 }
 
 .pp{
-	font-family: 'Oswald', sans-serif;
 	font-size: 1.25em;
 	font-style: normal;
 	text-align: left;
@@ -131,12 +125,47 @@ section .sb {
 	top: 380px;
 }
 
-.contato-cris{
+.contato {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	background: rgb(0, 102, 179);
+	background: url(assets/grafismo.svg) no-repeat center center, rgb(0, 102, 179);
+	background-size: 35%;
+	width: 100%;
+}
+
+.contato-descricao {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 15%;
+	width: 25%;
+	margin: 0 2%;
 	color: rgb(255, 255, 255);
-	position: absolute;
-	left: 41%;
-	width: 30%;
-	top: 360px;
+}
+
+.contato-titulo {
+	font-size: 2em;
+	margin: 0;
+}
+
+.contato-descricao p {
+	margin: 0;
+	font-size: 1.3em;
+	line-height: 1.35em;
+	letter-spacing: 0em;
+}
+
+.contato-descricao h2 {
+	margin: 0;
+}
+
+.contato-tituloDestaque {
+	font-weight: 700;
+	color: rgb(251, 176, 59);
+	display: flex;
 }
 
 .todos{
@@ -144,6 +173,7 @@ section .sb {
 	flex-flow: row nowrap;
 	width: 100%;
 }
+
 .todos-1{
 	width: 50%;
 }
@@ -157,25 +187,21 @@ section .sb {
 }
 
 .todos-1 h1{
-	font-family: 'Oswald', sans-serif;
 	font-size: 2.0em;
 	color: rgb(0, 0, 0);
 	text-transform: uppercase;
 	text-align: center;
-	/*line-height: 2.23em;*/
-    letter-spacing: 0em;
+  letter-spacing: 0em;
 	position: relative;
 	width: 17%;
 	left: 18%;
 	display: flex;
-    top: 250px;
-    height: 20px;
-
+  top: 250px;
+  height: 20px;
 }
 
 .todos-1 p{
-	font-family: 'Oswald', sans-serif;
-    font-size: 0.95em;
+  font-size: 0.95em;
 	color: rgb(0, 0, 0);
 	font-style: normal;
 	text-align: left;
@@ -193,6 +219,7 @@ section .sb {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
+	width: 50%;
 	/*padding-top: 6%;
 	padding-right: 5%;
 	padding-left: 6%;*/
@@ -217,4 +244,21 @@ section .sb {
 	text-align: center;
 	/*line-height: 1.23em;*/
 	letter-spacing: 0.01em;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 4% 0;
+}
+
+footer p {
+	margin-top: .5%;
+	margin-bottom: 0;
+}
+
+footer a {
+	color: black;
 }
