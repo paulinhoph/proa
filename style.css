@@ -21,16 +21,18 @@ header, section, footer{
 .menu ul{ 
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	position: absolute;
+	margin: 0;
+	height: 30%;
 	right: 6%;
 	min-width: 34%;
 }
 
 .menu ul li {
-	font-family: 'BalboaPlus-Fill',sans-serif;
 	font-size: 1.88em;
 	color: rgb(0, 0, 0);
-	font-style: all "caps";
+	text-transform: uppercase;
 	text-decoration: underline;
 	text-align: center;
 	line-height: 1.61em;
@@ -49,17 +51,25 @@ header, section, footer{
 }
 
 .mp{
-	font-family: 'Oswald', sans-serif;
     font-size: 2.92em;
 	color: rgb(255, 255, 255);
+	text-transform: uppercase;
 	font-style: normal;
 	text-align: left;
 	letter-spacing: 0em;
 	position: absolute;
-	top: 18%;
-	left: 60%;
+	top: 53%;
+	left: 61%;
 }
 
+.pv{
+	font-size: 2.63em;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 2.23em;
+	letter-spacing: 0em;
+}
 
 section .sb {
 	position: relative;
@@ -70,9 +80,9 @@ section .sb {
 }
 
 .texto-sobre {
-	font-family: 'Oswald', sans-serif;
 	font-size: 1.31 em;
 	color: rgb(0, 0, 0);
+	text-transform: uppercase;
 	font-style: normal;
 	text-align: left;
 	line-height: 1.38em;
@@ -82,15 +92,18 @@ section .sb {
 	left: 29%;
 	top: -70px;
 }
+
 .borda{
 	width: 40%;
 	position: relative;
 	left: 30%;
 	background:rgb(0, 102, 179);
 }
+
 .rodape{	
 	background:rgb(0, 102, 179);
 }
+
 .h2{
 	color: rgb(251, 176, 59);
 	position: absolute;
@@ -104,6 +117,7 @@ section .sb {
 	letter-spacing: 0em;
 	
 }
+
 .pp{
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.25em;
@@ -115,9 +129,8 @@ section .sb {
 	position: absolute;
 	left: 7%;
 	top: 380px;
-
-
 }
+
 .contato-cris{
 	color: rgb(255, 255, 255);
 	position: absolute;
@@ -125,6 +138,7 @@ section .sb {
 	width: 30%;
 	top: 360px;
 }
+
 .todos{
 	display: flex;
 	flex-flow: row nowrap;
@@ -184,6 +198,7 @@ section .sb {
 	padding-left: 6%;*/
 	
 }
+
 .itens {
 	background: rgb(251, 176, 59);
 	display: flex;
@@ -194,6 +209,7 @@ section .sb {
 	border-radius: 50%;
 	margin:1.5%;
 }
+
 .itens h2 {
 	font-size: 1.44em;
 	color: #000;
