@@ -50,7 +50,7 @@ header, section, footer{
 	margin: 0 auto;
 }
 
-.mp{
+.tagline{
   font-size: 2.92em;
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;
@@ -62,7 +62,7 @@ header, section, footer{
 	left: 61%;
 }
 
-.pv{
+.grafismo-tagline{
 	font-size: 2.63em;
 	color: rgb(0, 0, 0);
 	text-transform: uppercase;
@@ -71,7 +71,7 @@ header, section, footer{
 	letter-spacing: 0em;
 }
 
-section .sb {
+section .historia-img {
 	position: relative;
 	left: 35%;
 	top: -52px;
@@ -79,10 +79,9 @@ section .sb {
 
 }
 
-.texto-sobre {
+.historia-texto {
 	font-size: 1.31em;
 	color: rgb(0, 0, 0);
-	text-transform: uppercase;
 	font-style: normal;
 	text-align: left;
 	line-height: 1.38em;
@@ -92,14 +91,6 @@ section .sb {
 	left: 29%;
 	top: -70px;
 }
-
-.borda{
-	width: 40%;
-	position: relative;
-	left: 30%;
-	background:rgb(0, 102, 179);
-}
-
 
 .h2{
 	color: rgb(251, 176, 59);
@@ -121,8 +112,8 @@ section .sb {
 	letter-spacing: 0em;
 	color: rgb(255, 255, 255);
 	position: absolute;
-	left: 7%;
-	top: 380px;
+	/*left: 7%;
+	/*top: 380px;*/
 }
 
 .contato {
@@ -171,6 +162,7 @@ section .sb {
 .todos{
 	display: flex;
 	flex-flow: row nowrap;
+	margin: 0;
 	width: 100%;
 }
 
@@ -191,48 +183,51 @@ section .sb {
 	color: rgb(0, 0, 0);
 	text-transform: uppercase;
 	text-align: center;
-  letter-spacing: 0em;
-	position: relative;
-	width: 17%;
+    letter-spacing: 0em;
+	position: absolute;
+	width: 15%;
 	left: 18%;
-	display: flex;
-  top: 250px;
-  height: 20px;
+    top: 30px;
+    
 }
 
 .todos-1 p{
-  font-size: 0.95em;
+    font-size: 0.95em;
 	color: rgb(0, 0, 0);
 	font-style: normal;
 	text-align: left;
-	/*line-height: 0.89em;*/
 	letter-spacing: 0em;
-	width: 25%;
-	position: relative;	
+	position: absolute;
+	width: 30%;	
 	left: 13%;
-	top: -305px;
+	top: 250px; 
 }
 
 #todos-2{
 	background: rgb(0, 174, 239);
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	width: 50%;
-	/*padding-top: 6%;
-	padding-right: 5%;
-	padding-left: 6%;*/
+	
 	
 }
 
+div .colaboracao{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin: 0;
+
+}
 .itens {
 	background: rgb(251, 176, 59);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 25%;
-	width: 25%;
+	height: 150px;
+	width: 150px;
 	border-radius: 50%;
 	margin:1.5%;
 }
