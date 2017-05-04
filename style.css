@@ -488,13 +488,13 @@ div .colaboracao{
 	font-size: 2.5em;
 	text-align: center;
 	letter-spacing: 0.01em;
-	width: 90%
+	width: 90%;
+	margin-left: 5%;
 
 }
-
-.complemento-btn{
-	position: absolute;
-	top: 80%;
+.complemento-title p{
+	width: 40%;
+	color: red;
 }
 
 .is-active {
