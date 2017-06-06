@@ -602,8 +602,8 @@ footer a {
 	color: black;
 }
 
-footer img {
-	max-width: 100px;
+footer a img {
+	width: 100px;
 	margin: 20px 20px 0px 20px;
 }
 
