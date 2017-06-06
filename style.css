@@ -107,7 +107,6 @@ section{
 	margin: 0;
 	padding-top: 0;
 	width: 100%;
-	height: 200vh;
 }
 
 .todos-1{
@@ -116,9 +115,7 @@ section{
 	justify-content: center;
 	flex-direction: column;
 	width: 50%;
-	max-height: 100vh;
-
-	
+	min-height: 100vh;
 }
 
 .todos-1 h1{
@@ -180,10 +177,9 @@ section{
 	text-align: left;
 	line-height: 1.38em;
 	letter-spacing: 0em;
-	width: 50%;
+	width: 70%;
 	position: relative;	
-	left: 29%;
-	top: -100px;
+	margin: 0 auto;
 }
 
 .h2{
@@ -280,9 +276,9 @@ section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	height: 50%;
 	width: 50%;
-	/*margin: 0;*/
 	background: rgb(0, 174, 239);
 	border-radius: 50%;
 	height: 250px;
@@ -336,14 +332,12 @@ section{
 	text-align: center;
 	letter-spacing: 0.2em;
 	position: absolute;
-
-
-
+	margin: 0;
 }
 
 .cont-colaboracao p{
 	position: relative;
-	top: 65%;
+	top: 35%;
 	left: 10px;
 	font-size: 1.2em;
 	text-align: center;
@@ -634,8 +628,8 @@ footer a {
 		line-height: 1.98em;
 		letter-spacing: 0em;
 		position: absolute;
-		left: 40%;
-		top: 35%; 
+		left: 20%;
+		top: 10%; 
 	}
 
 	.responsivo4{
@@ -647,7 +641,7 @@ footer a {
 		line-height: 1.98em;
 		letter-spacing: 0em;
 		position: absolute;
-		left: 20%;
+		left: 5%;
 		top: -7%; 
 
 	}
@@ -679,15 +673,14 @@ footer a {
 	}
 
 	.tagline{
-	  	font-size: 4.31em;
+	  	font-size: 3em;
 		color: rgb(241, 90, 41);
 		font-style: normal;
 		text-align: left;
 		line-height: 1.98em;
-		/*letter-spacing: 0em;*/
 		position: absolute;
-		margin-top: 40%;
-		left: 20%;
+		bottom: 10%;
+		left: 10%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -699,7 +692,7 @@ footer a {
 		margin-top: 30%;
 		padding-top: 0;
 		width: 100%;
-		height: 200vh;
+		height: 100vh;
 	}
 
 	.todos-1{
@@ -708,10 +701,7 @@ footer a {
 		justify-content: center;
 		flex-direction: column;
 		width: 100%;
-		font-size: 1.10em;
-
-
-		
+		font-size: 1.10em;		
 	}
 
 	.todos-1 h1{
@@ -720,9 +710,9 @@ footer a {
 		text-transform: uppercase;
 		text-align: center;
 		letter-spacing: 0em;
-		line-height: 1.8em;
+		line-height: 1.5em;
 		position: relative;
-		top: 30%;
+		top: 35%;
 		width: 220px;
 		height: 220px;
 		border: 30px solid #39B54A;
@@ -753,13 +743,11 @@ footer a {
 		flex-wrap: wrap;
 		position: relative;
 		width: 100%;
-
-		
-	
+		display: none;
 	}
+
 	.todos-2 h1{
 		color: rgb(57, 181, 74)
-
 	}
 	
 	.itens {
@@ -769,30 +757,36 @@ footer a {
 	#historia .historia-img {
 		position: relative;
 		left: 0%;
-		top: 9%;
+		top: 2%;
 		width: 100%;
 	}
 
 	.midias{
 		position: relative;
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		width: 80%;
+		margin: 0;
 	}
-	.midias iframe{
-		position: relative;
-		right: 30%;
+
+	.midias p {
+		margin-bottom: 0;
+		line-height: 1em;
+	}
+
+	.midias video {
+		max-width: 100%;
 	}
 
 	.midias div {
 		position: relative;
-		/*left: 60%;*/
-		width: 50%;
-		/*height: 100%;*/
-
+		width: 70%;
 	}
+
+	.midias div:nth-child(2) {
+    	width: 80%;
+    }
 
 	.midias .texto-midia{
 		font-size: 2.99em;
@@ -815,37 +809,37 @@ footer a {
 		justify-content: space-around;
 		align-items: center;
 		flex-direction: column;
-		margin: 20%;
+		margin: 20% 0;
 	}
 	
 	.cont-colaboracao{
 		display: flex;
 		order: -1;
 		border-radius: 80%;	
-		height: 350px;
-		width: 350px;
+		height: 325px;
+		width: 325px;
 		margin: 10%;
 	}
 
 	.cont-trabalho{
 		border-radius: 80%;	
-		height: 350px;
-		width: 350px;
+		height: 325px;
+		width: 325px;
 		margin: 20%;
 	}
 
 	.cont-contato{
 		border-radius: 80%;	
-		height: 350px;
-		width: 350px;
+		height: 325px;
+		width: 325px;
 		margin: 20%;
 
 	}
 
 	.cont-colaboracao h1{
-		font-size: 2.50em;
+		font-size: 2.25em;
 		text-align: center;
-		line-height: 2.14em;
+		line-height: 1.5em;
 		letter-spacing: 0em;
 		display: flex;
 		position: absolute;
@@ -854,19 +848,19 @@ footer a {
 
 	.cont-colaboracao p{
 		position: relative;
-		font-size: 1.50em;
+		font-size: 1.25em;
 		text-align: center;
 		line-height: 1.13em;
 		letter-spacing: 0.07em;
 		font-weight: bold;
 		display: flex;
-		margin-top: 30%;
+		margin-top: -20%;
 
 	}
 	.cont-trabalho h1{
 		font-size: 2.50em;
 		text-align: center;
-		line-height: 2.14em;
+		line-height: 1.5em;
 		letter-spacing: 0em;
 		display: flex;
 		width: 9%;
@@ -877,18 +871,18 @@ footer a {
 
 	.cont-trabalho p{
 		position: relative;
-		font-size: 1.50em;
+		font-size: 1.25em;
 		text-align: center;
 		line-height: 1em;
 		font-weight: bold;
-		margin-top: 90%;
+		margin-top: 55%;
 
 	}
 
 	.cont-contato h1{
-		font-size: 2.99em;
+		font-size: 3em;
 		text-align: center;
-		line-height: 2.14em;
+		line-height: 1.5em;
 		letter-spacing: 0em;
 		position: absolute;
 		width: 200px;
@@ -898,12 +892,11 @@ footer a {
 	.cont-contato a{
 		color: #000;
 		position: relative;
-		margin-top: 90%;
-		font-size: 2.20em;
+		font-size: 1.5em;
 		text-align: center;
 		text-decoration: none;
 		line-height: 1em;
-		margin-top: 97%;
+		margin-top: 45%;
 	}
 
 	.cont-texto{
@@ -911,13 +904,13 @@ footer a {
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
-		font-size: 1.4em;
+		font-size: 1em;
 		font-style: normal;
 		text-align: center;
 		line-height: 1.23em;
 		letter-spacing: 0em;
 		margin-top: 20%;
-		width: 500px;
+		width: 300px;
 	}
 
 	.contato {
@@ -945,7 +938,7 @@ footer a {
 		flex-direction: column;
 		align-items: center;
 		position: relative;
-		width: 50%;
+		width: 85%;
 		margin: 20px;
 	}
 
@@ -966,13 +959,11 @@ footer a {
 	}
 
 	.contato-descricao .contato-tituloDestaque{
-		/*font-weight: 700;*/
-		color: rgb(251, 176, 59);
-		font-size: 1.80em;
+		font-size: 1.5em;
 		font-style: normal;
 		text-align: left;
 		line-height: 1.29em;
 		letter-spacing: 0em;
-		margin-top: -3%;
+		margin-top: -20%;
 	}
 }
