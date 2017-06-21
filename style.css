@@ -600,7 +600,7 @@ footer p {
 footer a {
 	color: black;
 }
-@media only screen and (max-width: 803px) {
+@media only screen and (max-width: 1020px) {
 	html, body{
 		margin: 0;
 		padding: 0;
@@ -617,12 +617,19 @@ footer a {
 		margin-left:  15%;
 	}
 	.responsivo2{
+		position: relative;
 		display: block;
 		font-size: 2.01em;
 		font-style: normal;
 		text-align: left;
-		line-height: 1.98em;
+		line-height: 1.0em;
 		letter-spacing: 0em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+
 	}
 
 	.responsivo3{
@@ -686,18 +693,21 @@ footer a {
 		line-height: 1.98em;
 		/*letter-spacing: 0em;*/
 		position: absolute;
-		margin-top: 40%;
+		margin-top: 50%;
 		left: 20%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
+	.texto-rsponsivo{
+
+	}
 
 	#todos{
 		display: flex;
 		flex-flow: column wrap;
-		margin-top: 30%;
-		padding-top: 0;
+		margin-top: 40%;
+		padding-top: 15%;
 		width: 100%;
 		height: 200vh;
 	}
@@ -750,18 +760,18 @@ footer a {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		flex-wrap: wrap;
 		position: relative;
+		height: 100%;
 		width: 100%;
+		top: 50px;
 
-		
 	
 	}
 	.todos-2 h1{
 		color: rgb(57, 181, 74)
 
 	}
-	
+
 	.itens {
 		display: none;
 	}	
@@ -815,8 +825,11 @@ footer a {
 		justify-content: space-around;
 		align-items: center;
 		flex-direction: column;
+		position: relative;
 		margin: 20%;
-	}
+
+
+}
 	
 	.cont-colaboracao{
 		display: flex;
@@ -925,7 +938,7 @@ footer a {
 		align-items: center;
 		justify-content: space-between;
 		flex-direction: column;
-		height: 90vh;
+		height: 130vh;
 		padding-top: 0;
 		margin-top: 7%;
 		background: rgb(0, 102, 179);
@@ -946,7 +959,8 @@ footer a {
 		align-items: center;
 		position: relative;
 		width: 50%;
-		margin: 20px;
+		margin: 30px;
+		left: 30px;
 	}
 
 	.contato-descricao p {
